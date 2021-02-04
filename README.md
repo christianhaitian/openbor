@@ -1,3 +1,10 @@
+# Building for RK3326 devices (in arm64 environment)
+```bash
+git clone https://github.com/christianhaitian/openbor.git
+cd openbor/engine
+./version.sh
+make BUILD_LINUX_aarch64=1 -j$(nproc)
+```
  # Overview
  
 OpenBOR is a royalty free sprite based side scrolling gaming engine. From humble beginnings in 2004, it has since grown into the most versatile, easy to use, and powerful engine of its type you will find anywhere. OpenBOR is optimized for side scrolling beat em’ up style games (Double Dragon, Streets of Rage, Final Fight), but easily accommodates any sort of gameplay style and feature set you can imagine. 
